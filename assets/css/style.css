@@ -16,6 +16,7 @@ main {
 }
 
 img {
+  cursor: pointer;
   background-size: cover;
   width: 35vh;
   height: 20vh;
