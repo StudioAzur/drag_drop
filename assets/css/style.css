@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+}
+#drag_area {
+  width: 70vw;
+  height: 30vh;
+  background-color: antiquewhite;
+}
+
+#drop_area {
+  width: 70vw;
+  height: 30vh;
+  background-color: royalblue;
+}
+
+img {
+  background-size: cover;
+  width: 35vh;
+  height: 20vh;
+}
