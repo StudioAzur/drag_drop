@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="icon" href="./assets/images/wavelopper.png" />
     <title>Drag & Drop</title>
 </head>
+
 <body>
     <header>
         <h1>Drag & Drop</h1>
@@ -15,11 +17,16 @@
     <main>
         <h2>Drag Area</h2>
         <div id="drag_area"">
-                <img  id="shark" src="./assets/images/sharky.jpg" alt="c'est Sharky, un grand requin blanc" draggable="true">
+                <figure id="shark_figure" draggable="true">
+            <img src="./assets/images/sharky.jpg" alt="c'est Sharky, un grand requin blanc" draggable="true"
+                id="shark_img">
+            <figcaption id="legend" draggable="true">Sharky, le gentil requin</figcaption>
+            </figure>
         </div>
         <h2>Drop Area</h2>
         <div id="drop_area"></div>
     </main>
-<script src="./assets/js/index.js"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
+
 </html>
